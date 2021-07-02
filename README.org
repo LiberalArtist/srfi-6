@@ -6,6 +6,8 @@
 
 keywords: [[https://srfi.schemers.org/?keywords=i/o][I/O]], [[https://srfi.schemers.org/?keywords=operating-system][Operating System]]
 
+library-name: basic-string-ports
+
 This repository hosts [[https://srfi.schemers.org/srfi-6/][SRFI 6]]: Basic String Ports, a [[https://srfi.schemers.org/][Scheme Request for Implementation]].
 
 This SRFI is in /final/ status.
