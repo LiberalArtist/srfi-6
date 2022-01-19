@@ -1,23 +1,20 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>SRFI 6: Basic String Ports</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/srfi.css" type="text/css" />
+    <link rel="stylesheet" href="https://srfi.schemers.org/srfi.css" type="text/css" />
+    <link href="/favicon.png" rel="icon" sizes="192x192" type="image/png">
   </head>
 
   <body>
 
-<H1>Title</H1>
+<h1><a href="https://srfi.schemers.org/"><img class="srfi-logo" src="https://srfi.schemers.org/srfi-logo.svg" alt="SRFI surfboard logo" /></a>6: Basic String Ports</h1>
 
-Basic String Ports
+<p>by William D Clinger</p>
 
-<H1>Author</H1>
-
-William D Clinger
-
-<H1>Status</H1>
+<h2>Status</h2>
 
 <p>This SRFI is currently in <em>final</em> status.  Here is <a href="https://srfi.schemers.org/srfi-process.html">an explanation</a> of each status that a SRFI can hold.  To provide input on this SRFI, please send email to <code><a href="mailto:srfi+minus+6+at+srfi+dotschemers+dot+org">srfi-6@<span class="antispam">nospam</span>srfi.schemers.org</a></code>.  To subscribe to the list, follow <a href="https://srfi.schemers.org/srfi-list-subscribe.html">these instructions</a>.  You can access previous messages via the mailing list <a href="https://srfi-email.schemers.org/srfi-6">archive</a>.</p>
 <UL>
@@ -27,7 +24,7 @@ William D Clinger
 </UL>
 
 
-<H1>Abstract</H1>
+<h2>Abstract</h2>
 
 Scheme's i/o primitives are extended by adding three new procedures
 that
@@ -39,18 +36,18 @@ that
     and return them in the form of a string.
 </ul>
 
-<H1>Issues</H1>
+<h2>Issues</h2>
 
 None.
 
-<H1>Rationale</H1>
+<h2>Rationale</h2>
 
 Scheme's procedures for performing input and output from and to ports
 become more useful when extended by string ports.  The interface
 described here has been in use since 1986 or before, and is currently
 supported by several of the major implementations.
 
-<H1>Specification</H1>
+<h2>Specification</h2>
 
 This specification is taken from the MacScheme Reference Manual.
 
@@ -96,7 +93,7 @@ This specification is taken from the MacScheme Reference Manual.
 </dl>
 
 
-<H1>Implementation</H1>
+<h2>Implementation</h2>
 
 What follows is just an outline of how these procedures might be
 implemented, because a real implementation would also have to
@@ -319,7 +316,7 @@ would only detract from the readability of this implementation.
     (if #f #f)))
 </pre>
 
-<H1>Copyright</H1>
+<h2>Copyright</h2>
 Copyright (C) William D Clinger (1999). All Rights Reserved. 
 <p>
 Permission is hereby granted, free of charge, to any person obtaining
